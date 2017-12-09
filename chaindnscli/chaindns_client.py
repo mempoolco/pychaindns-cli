@@ -39,7 +39,7 @@ class DNSResponse:
         return self.records.get(dnslib.QTYPE.AAAA, [])
 
 
-class DNSChainClient:
+class ChainDNSClient:
     def __init__(self, domain):
         self.resolvers = []
         self.domain = domain

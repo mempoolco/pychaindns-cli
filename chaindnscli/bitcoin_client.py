@@ -1,11 +1,11 @@
-from dnschaincli.dnschain_client import DNSChainClient
-from dnschaincli.tools import ipv6_to_data
+from chaindnscli.chaindns_client import ChainDNSClient
+from chaindnscli.tools import ipv6_to_data
 
 
 class BitcoinClient:
     BLOCKHASH_TEMPLATE = '{}.blockhash.{}'
 
-    def __init__(self, dns_client: DNSChainClient, coin):
+    def __init__(self, dns_client: ChainDNSClient, coin):
         self.client = dns_client
         self.coin = coin
 

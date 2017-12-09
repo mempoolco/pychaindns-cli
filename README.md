@@ -1,2 +1,2 @@
-# pydnschaincli
-python impl of dnschain-cli
+# pychaindns-cli
+python impl of chaindns-cli
